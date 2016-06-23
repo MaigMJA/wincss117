@@ -1,0 +1,63 @@
+body{
+  color: white;
+  background-color: #007F80;
+  text-align: center;
+
+}
+.bordure{
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  background-color: #282d34;
+  border-radius: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+h1{
+  text-align: center;
+}
+.tete{
+  padding-left: 3%;
+    background-image: image(tete/tetebinaire.png);
+
+}
+.tete:hover{
+    background-image: image(tete/tetebinaire.png);
+}
+p{
+  margin-left: 20%;
+  margin-right: 20%;
+
+}
+h3{
+  font-size:50px;
+}
+
+#simplon{
+  font-size: 20px
+}
+
+
+#copyrighttext{
+color: white;
+text-align: center;
+margin-top: 10px;
+}
+
+#tt,#insta,#fb{
+  width: 30px;
+  margin-left: 25px;
+}
+
+.icon{
+  margin-right: 3%;
+}
+#css{
+  height: 350px;
+  width: 100%;
+}
+#simplonimg,#centrale{
+  height: 350px;
+  width: 100%;
+}

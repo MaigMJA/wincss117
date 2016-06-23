@@ -1,0 +1,191 @@
+
+
+@font-face {
+    font-family: 'policeMsDos';
+    src: url('police/policeMsDos.ttf') format('truetype');
+}
+
+body{
+  background-color: #008081;
+  background-position:center top;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+}
+.row{
+  width: 100px;
+  height: 40%;
+  margin-left:3.8%;
+}
+p{
+  width: -moz-max-content;
+}
+
+.bloc-img{
+  height :20%;
+  margin-top: 40px;
+  width: -moz-min-content;
+}
+.bloc-img img{
+  height: 90%;
+  margin-bottom: 10px;
+}
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -120px;
+    height: 300px;
+    width: 300px;
+}
+#mycomputer{
+  margin-bottom: 10px;
+}
+.barre{
+  position: fixed;
+  width:100%;
+  height:auto;
+  display: table-row;
+  bottom: 0px;
+  left:0;
+}
+
+a
+{
+  text-decoration:none;
+  color: black;
+  font-family: sans-serif;
+}
+
+.corbeille img{
+  float: right;
+      position: absolute;
+      bottom: 11%;
+      right: 3em;
+      margin-right: 30px;
+      height: 50px;
+      width: 40px;
+}
+
+/* Popup */
+#fade { /*--Masque opaque noir de fond--*/
+  display: none; /*--masqué par défaut--*/
+  background: #000;
+  position: fixed; left: 0; top: 0;
+  width: 100%; height: 100%;
+  opacity: .80;
+  z-index: 9999;
+}
+.popup_block{
+  display: none; /*--masqué par défaut--*/
+  background: black;
+  color:white;
+  padding: 20px;
+  border: 2px solid black;
+  float: left;
+  font-size: 1.2em;
+  position: fixed;
+  top: 50%; left: 60%;
+  z-index: 99999;
+  /*--Les différentes définitions de Box Shadow en CSS3--*/
+  -webkit-box-shadow: 0px 0px 20px #000;
+  -moz-box-shadow: 0px 0px 20px #000;
+  box-shadow: 0px 0px 20px #000;
+  /*--Coins arrondis en CSS3--*/
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 1px;
+}
+img.btn_close {
+  float: right;
+  max-width: 800px;
+  margin:-36px -20px 0 0;
+}
+.popup_block p
+{
+  height: 300px;
+  font-family: policeMsDos;
+  text-align: left;
+}
+.popup_block h3
+{
+  font-family: policeMsDos;
+}
+/*Menu Démarrer*/
+.nav-item {
+  display: block;
+  position: absolute;
+  display: inherit;
+  left: -999em;
+  z-index: 50;
+  background-color: grey;
+  opacity: 0.9;
+  border: 1px solid black;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  list-style: none;
+  font: serif 10px;
+  padding: 0 3;
+  left:5px;
+  bottom:15px;
+  width: 151px;
+  line-height: 1;
+}
+
+.nav-item ul{
+  list-style: none;
+  border-bottom: 1px grey solid;
+  padding: 1px;
+  left: 2px;
+}
+
+.nav-item li{
+  list-style: none;
+  color:black;
+  border-bottom: 1px grey solid;
+  padding: 2px 1px;
+  left: 5px;
+}
+
+.nav-item a {
+    display: block;
+    color: black;
+    background: white;
+    text-decoration: none;
+}
+
+.sub-nav {
+    display: none; /* Masque la sous-liste */
+    width: 150px;
+    left: 2px; /* FIX IE7 : pour que le sous-menu s’aligne avec son conteneur */
+    background: white; /* FIX IE7 : évite que la sous-liste ne disparaisse au moment où le curseur arrive au-dessus */
+}
+.nav-item:hover .sub-nav {
+    display: block; /* Affiche cette sous-liste au survol de son conteneur */
+}
+
+.menutitle{
+  margin:4px;
+  font-weight: bold;
+  left:2px;
+}
+
+.menudemarrer{
+  margin-top: 115px;
+  position: absolute;
+  bottom:0;
+  left:0;
+}
+
+li {padding:2px; }
+ul{margin:0 2;}
+
+.barre{
+  z-index: 1000;
+}
+
+.binaire{
+  height: 300px;
+}
